@@ -10,14 +10,14 @@
 ![UROV](/assets/images/)
 ### -[UROV](https://sparkesys.github.io/Projects/UROV)
 
-![QST](/assets/images/)
+![QST](/assets/images/QST_Overall.jpg)
 ### -[QST](https://sparkesys.github.io/Projects/QST)
 
 ![Mutoscope](/assets/images/)
 ### -[Mutoscope](https://sparkesys.github.io/Projects/mutoscope)
 
-![Drop Stand](/assets/images/)
+![Drop Stand](/assets/images/DropStand.jpg)
 ### -[Drop Stand](https://sparkesys.github.io/Projects/dropstand)
 
-![Wear Test Fixture](/assets/images/)
+![Wear Test Fixture](/assets/images/wearfixture.jpg)
 ### -[Wear Test Fixture](https://sparkesys.github.io/Projects/wearfixture)
