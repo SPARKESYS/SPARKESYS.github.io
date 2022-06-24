@@ -98,7 +98,7 @@ Polyworks Inspector
 	PCB Design 	¬Rapid Prototyping 
 
 
-### -[CV](https://sparkesys.github.io/CV)
+### -[Home](https://sparkesys.github.io)
 
 ### -[Education](https://sparkesys.github.io/Education)
 
