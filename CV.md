@@ -1,17 +1,19 @@
+<p align="center">
 ## JARROD RESMONDO
-### 9910 Holsberry Rd. Pensacola, FL 32534
-### 850-512-2259 sparkelectronicsys@gmail.com
 
 
-![Image](https://github.com/SPARKESYS/SPARKESYS.github.io/tree/main/assets/images/engineering-MS.jpg)
+## 9910 Holsberry Rd. Pensacola, FL 32534
+## 850-512-2259 sparkelectronicsys@gmail.com
 
+![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg)
+
+</P>
 
 
 ## PRIMARY AREAS OF EXPERIENCE  
 
-##### ¬Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
-##### Sound understanding of fundamental principles and trends in electrical engineering. Eager to learn and adapt to new environments, products, and projects.
-¬
+ ¬Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
+ ¬Sound understanding of fundamental principles and trends in electrical engineering. Eager to learn and adapt to new environments, products, and projects.
 
 ## PROFESSIONAL EXPERIENCE  
 
@@ -39,9 +41,7 @@
 factors.
 •	Perform on-aircraft flight tests to recreate accident situations, record real time flight data, and document aircraft characteristics.
 •	Perform testing to include hardness evaluations, breakaway, and re-torque analysis, and
-tension/compression stress analysis on a variety of high strength hardware.
-
-¬
+	tension/compression stress analysis on a variety of high strength hardware.
 
 
 
@@ -72,8 +72,7 @@ Underwater Robotic Observation Vehicle
 
 ### COMPUTER PROFICIENCIES  
 
- 
-¬¬Autodesk Fusion/Inventor
+Autodesk Fusion/Inventor
 SolidWorks 
 
 EaglePCB Cad
@@ -84,18 +83,23 @@ Geomagic Design X
 Polyworks Inspector
  
 
-
-
 ### PROGRAMMING PROFICIENCIES  
- 
-¬C, C++,C# 
+
+¬C
+¬C++
+¬C# 
 ¬VHDL 
 ¬Assembly 
 ¬Python 
- 
 
-¬Hardware Development 	¬Sensor Calibration 	¬Software Development 
-	PCB Design 	¬Rapid Prototyping 
+
+¬Hardware Development 	
+¬Sensor Calibration 	
+¬Software Development 
+¬PCB Design 	
+¬Rapid Prototyping 
+
+
 
 
 ### -[Home](https://sparkesys.github.io)
