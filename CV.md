@@ -6,7 +6,7 @@
 </P>
 
 
-![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg)
+![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg){: .align-center}
 
 ## PRIMARY AREAS OF EXPERIENCE  
 

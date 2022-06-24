@@ -4,7 +4,7 @@
 
 
 
-![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg)
+![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg){: .align-center}
 ### -[Chess Robot](https://sparkesys.github.io/Projects/chessrobot)
 
 ![UROV](/assets/images/)
