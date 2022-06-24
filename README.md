@@ -18,7 +18,7 @@
 // **************************************************************************
 ```
 
-![Image](https://sparkesys.github.io/assets/images/engineering-MS.jpg)
+![Image](https://github.com/SPARKESYS/SPARKESYS.github.io/tree/main/assets/images/engineering-MS.jpg)
 
 ### -[CV](https://sparkesys.github.io/CV)
 
