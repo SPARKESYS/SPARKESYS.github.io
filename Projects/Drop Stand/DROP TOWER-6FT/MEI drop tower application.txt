@@ -1,0 +1,55 @@
+From: Eric VanIderstine
+Sent: Tuesday, August 22, 2006 10:50 AM
+To: cosmond@enidine.com
+Cc: Eric VanIderstine
+Subject: MEI drop tower application
+
+Attachments: MEI DROP TOWER-iso.PDF; MEI DROP TOWER-front.PDF
+
+Chris, I have an application that I would like to see if a shock absorber would be a suitable fit.  The application is a drop tower used for specialized testing.  I have attached pdf files of the basic tower.  The maximum drop height is 68” inches.  Currently no tests are being considered for the maximum height.
+
+ 
+
+The carriage weight is 7 lb, total carriage + specimen weight are not expected to exceed 20 lb.
+
+ 
+
+The purpose of the apparatus is to evaluate specimen performance under various acceleration levels and durations.  As a result, a device or method for providing repeatable and selectable acceleration curves is desired.  A single device or method is not mandatory, change-out of components to suit the desired test is acceptable, as long as repeatable performance is achieved.  I have performed a few instrumented tests using shock absorbers and there appears to be high frequency sinusoidal data in the shock pulse.  I will forward data recorded from the shock absorber drop as well as data from an elastomeric pad.  The preferable shock pulse would be trapezoidal or an inverted v.
+
+ 
+
+Specifications:
+
+Impact velocity : 0 - 225 in/sec – current testing will occur at approximately 75 in/sec.
+
+# cycles/hour : flexible, but 20/hour is desirable
+
+Total drop weight : 20 lb (max) – current test weight 10 lb
+
+Desired deceleration levels of 25-500g
+
+ 
+
+ 
+
+McSwain Engineering, Inc. is a consulting company that performs failure analysis and engineering investigations.
+
+ 
+
+I have nearly 10 years background in the custom machinery industry, and have been using shock absorbers (including Enidine) throughout that time on various pieces of equipment.
+
+Project time line is immediate, drop tower is in use and decelerations alternatives are being explored.
+
+ 
+
+Thanks in advance for your attention to this, if I can be of assistance, please do not hesitate to contact me.  If any further information is needed, please reply or call.
+
+ 
+
+Eric L. Van Iderstine P.E.
+
+McSwain Engineering, Inc.
+
+www.mcswain-eng.com
+
+(850) 484-0506
