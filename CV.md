@@ -2,6 +2,11 @@
 ### 9910 Holsberry Rd. Pensacola, FL 32534
 ### 850-512-2259 sparkelectronicsys@gmail.com
 
+
+![Image](https://github.com/SPARKESYS/SPARKESYS.github.io/tree/main/assets/images/engineering-MS.jpg)
+
+
+
 ## PRIMARY AREAS OF EXPERIENCE  
 
 ##### ¬Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
