@@ -10,7 +10,7 @@
 ![UROV](/assets/images/)
 ### -[UROV](https://sparkesys.github.io/Projects/UROV)
 
-![QST](/assets/images/QST_Overall.jpg)
+![QST](/assets/images/QST_Overall.jpg){: .align-center}
 ### -[QST](https://sparkesys.github.io/Projects/QST)
 
 ![Mutoscope](/assets/images/)
