@@ -13,7 +13,7 @@
 
 ### -[CV](https://SPARKESYS.github.io/CV)
 
-### -[Education](https://SPARKESYS.github.io/Education)
+### -[Education](https://sparkesys.github.io/Education)
 
 ### -[Projects](https://SPARKESYS.github.io/Projects)
 
