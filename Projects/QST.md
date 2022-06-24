@@ -1,8 +1,9 @@
-### -[Back](https://sparkesys.github.io/Projects)
+### -[Back](https://sparkesys.github.io/Projects)		-[Home](https://sparkesys.github.io)		-[Education](https://sparkesys.github.io/Education)		-[Projects](https://SPARKESYS.github.io/Projects)
 
 
-### -[Home](https://sparkesys.github.io)
+## I Reprogramed a Quasistatic Test Stand
 
-### -[Education](https://sparkesys.github.io/Education)
+![QST](/assets/images/QST_Overall.jpg){: .align-center}
 
-### -[Projects](https://SPARKESYS.github.io/Projects)
+Using a Dewesoft Sirius DAQ module, an outdated piece of equipment was revived!
+
