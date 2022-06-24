@@ -15,7 +15,7 @@
 
 ### -[Education]()
 
-### -[Projects](https://github.com/SPARKESYS/SPARKESYS.github.io/tree/main/Projects)
+### -[Projects](https://SPARKESYS.github.io/Projects)
 
 
 
