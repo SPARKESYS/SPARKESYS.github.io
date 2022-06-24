@@ -17,7 +17,7 @@
 ### -[Mutoscope](https://sparkesys.github.io/Projects/mutoscope)
 
 ![Drop Stand](/assets/images/)
-### -[Drop Stand](https://sparkesys.github.io/Projects/Dropstand)
+### -[Drop Stand](https://sparkesys.github.io/Projects/dropstand)
 
 ![Wear Test Fixture](/assets/images/)
 ### -[Wear Test Fixture](https://sparkesys.github.io/Projects/wearfixture)
