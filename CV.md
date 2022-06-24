@@ -1,14 +1,16 @@
-<p align="center">
-## JARROD RESMONDO
+<p>
+
+<h1  align="center">JARROD RESMONDO</h1>
 
 
-## 9910 Holsberry Rd. Pensacola, FL 32534
-## 850-512-2259 sparkelectronicsys@gmail.com
-
-![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg)
+<h2  align="center">9910 Holsberry Rd. Pensacola, FL 32534</h2>
+<h2  align="center">850-512-2259 </h2>
+<h2  align="center">sparkelectronicsys@gmail.com</h2>
 
 </P>
 
+
+![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg)
 
 ## PRIMARY AREAS OF EXPERIENCE  
 
