@@ -66,21 +66,21 @@
 
 ### CERTIFICATIONS AND TRAINING
 
-####LK Metrology 
+#### LK Metrology 
 	
 •	CMM Basic
 
-####Nikon Metrology
+#### Nikon Metrology
 
 •	X-Ray/ CT, VGStudioMax
 
-####FARO 
+#### FARO 
 •	3D Scanning
 
 
 ### EDUCATION  
 
-###University of West Florida	December 2020
+### University of West Florida	December 2020
 
 •	Bachelor of Science in Electrical Engineering   
 
@@ -88,11 +88,10 @@
 
 ### AWARDS  
 
-###University of West Florida	December 2020
+### University of West Florida	December 2020
 
 •	2020 University Of West Florida Dr. Muhammad Rashid Best Capstone Award 
-
-	Underwater Robotic Observation Vehicle
+		Underwater Robotic Observation Vehicle
 
 
 ### COMPUTER PROFICIENCIES  
