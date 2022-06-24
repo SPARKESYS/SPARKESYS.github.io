@@ -11,7 +11,7 @@
 ## -----------------B.S. Electrical Engineering------------------------------ 
 ## -------------------------------------Minor Computer Science--------------- 
 
-### -[CV](https://SPARKESYS.github.io/CV)
+### -[CV](https://sparkesys.github.io/CV)
 
 ### -[Education](https://sparkesys.github.io/Education)
 
