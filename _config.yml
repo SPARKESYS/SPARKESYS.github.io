@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
-markdown: kramdown
-kramdown:
+markdown: c
+c:
   input: GFM
   syntax_highlighter: rouge
