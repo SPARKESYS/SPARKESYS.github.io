@@ -5,8 +5,11 @@
 GPIO trigger using Hall effect Sensor on an Rpi
 
 ## History
-![Mutoscope](/assets/images/640px-Mutoscope,_1899_(bis).jpg)
+
 [Mutoscope History](https://www.wikiwand.com/en/Mutoscope)
+
+![Mutoscope](/assets/images/640px-Mutoscope,_1899_(bis).jpg)
+
 
 ## Functionality
 
