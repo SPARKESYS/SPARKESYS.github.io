@@ -12,14 +12,18 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+Jarrod Resmondo
 ## Header 2
+University Of West Florida 
+Computer Engineering 
+Electrical Engineering
+Computer Science
 ### Header 3
 
-- Bulleted
-- List
+-[LINK](CV)
+-Education
+-Projects
 
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
