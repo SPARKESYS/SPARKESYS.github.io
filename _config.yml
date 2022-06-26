@@ -1,6 +1,4 @@
-
-
-theme: jekyll-theme-minimal
+Theme: jekyll-theme-minimal
 layout: home
 baseurl: http://SPARKESYS.github.io
 markdown: c
