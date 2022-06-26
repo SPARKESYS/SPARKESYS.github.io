@@ -1,9 +1,8 @@
 
 ## I Reprogramed a Quasistatic Test Stand
 
-![QST](/assets/images/QST_Overall.jpg)
+<a><img src="{{ site.baseurl }}/assets/images/QST/QST_Overall.jpg" alt="QST" style="width:450px;height:350px;"></a>
 
-{: .align-center}
 
 Using a Dewesoft Sirius DAQ module, an outdated piece of equipment was revived!
 
