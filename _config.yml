@@ -1,7 +1,8 @@
 
-baseurl: http://SPARKESYS.github.io
+
 theme: jekyll-theme-minimal
 layout: home
+baseurl: http://SPARKESYS.github.io
 markdown: c
 c:
   input: GFM
