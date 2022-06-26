@@ -10,4 +10,4 @@
 
 <a href="/Projects/dropstand"><img src="/assets/images/dropstand/DropStand_web.png" alt="Drop Stand" style="width:250px;height:150px;"></a>
 
-<a href="/Projects/wearfixture"><img src="/assets/images//wearFixture/wearfixture_web.png" alt="Wear Fixture" style="width:250px;height:150px;"></a>
+<a href="/Projects/wearfixture"><img src="/assets/images/wearFixture/wearfixture_web.png" alt="Wear Fixture" style="width:250px;height:150px;"></a>
