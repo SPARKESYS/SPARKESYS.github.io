@@ -1,6 +1,6 @@
-Theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 layout: home
-baseurl: http://SPARKESYS.github.io
+baseurl: /gh-pages
 markdown: c
 c:
   input: GFM
