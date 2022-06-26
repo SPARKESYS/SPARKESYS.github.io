@@ -1,6 +1,8 @@
 theme: jekyll-theme-minimal
 layout: home
 baseurl: /
+bg: black
+color: white
 markdown: c
 c:
   input: GFM
