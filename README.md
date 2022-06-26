@@ -19,15 +19,5 @@
 ```
 
 
-### -[CV](https://sparkesys.github.io/CV)	     -      	[Education](https://sparkesys.github.io/Education)	     -     	[Projects](https://SPARKESYS.github.io/Projects)
+### -[CV](/CV)	     -      	[Education](/Education)	     -     	[Projects](/Projects)
 
-
-
-
-
-
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)

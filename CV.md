@@ -1,3 +1,6 @@
+
+### -[Home](/)			-[Education](/Education)		-[Projects](/Projects){: .align-center}
+
 <p>
 
 <h1  align="center">JARROD RESMONDO</h1>
@@ -6,19 +9,18 @@
 </P>
 
 
-![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg){: .align-center}
+![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg){: .align-right}
 
-## PRIMARY AREAS OF EXPERIENCE  
+## PRIMARY AREAS OF EXPERIENCE
+•	Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
 
- ¬Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
-
- ¬Sound understanding of fundamental principles and trends in electrical engineering. Eager to learn and adapt to new environments, products, and projects.
+•	Sound understanding of fundamental principles and trends in electrical engineering. Eager to learn and adapt to new environments, products, and projects.
 
 ## PROFESSIONAL EXPERIENCE  
 
 ### Spark Electronic Systems LLC  Pensacola, FL	2017-2018
 
-•	¬Contracted by the Museum of Naval Aviation to develop and design an embedded electronic hardware control system for a Mutoscope Exhibit.
+•	Contracted by the Museum of Naval Aviation to develop and design an embedded electronic hardware control system for a Mutoscope Exhibit.
 
 •	Programming in Python to detect the rotational movement of an external handle triggering the playback of an education video.
 
@@ -136,8 +138,3 @@
 
 
 
-### -[Home](https://sparkesys.github.io)
-
-### -[Education](https://sparkesys.github.io/Education)
-
-### -[Projects](https://SPARKESYS.github.io/Projects)
