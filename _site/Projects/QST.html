@@ -22,7 +22,7 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"Portfolio and Showcase for Projects","headline":"I Reprogramed a Quasistatic Test Stand","url":"http://localhost:4000/Projects/QST.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=c2672539150600d529c643b16937f81d3da70275">
+    <link rel="stylesheet" href="/assets/css/style.css?v=52c2e91d630bd3e2964a64940584745a12a766f2">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -40,7 +40,7 @@
   </head>
   <style>
     body {
-      background-image: url('/assets/images/background.png');
+      background-color: rgb(233, 233, 233);
       background-repeat: no-repeat;
       background-attachment: fixed;  
       background-size: cover; 
@@ -66,10 +66,17 @@
       
 <h2 id="i-reprogramed-a-quasistatic-test-stand">I Reprogramed a Quasistatic Test Stand</h2>
 
-<p><a><img src="/assets/images/QST/QST_Overall_web.png" alt="QST" style="width:450px;height:350px;" /></a></p>
+<p><a><img src="/assets/images/QST/QST_Overall_web.png" alt="QST" /></a></p>
 
 <p>Using a Dewesoft Sirius DAQ module, an outdated piece of equipment was revived!</p>
 
+<p>It was originally programmed with a plc controller and dedicated PC, the goal was to be able to control the fixture using a DEWESoft Sirius Data Aquisition module while be able to record data from a load cell, 4 triaxial accelerometers, and a camera, while controlling positional accuracy to 40 thousands of an inch.</p>
+
+<p>Three string pots were used to provide positional data of the hydraulic ram. A PID was programmed to extend the arm at a certain rate to a given distance. The Piston was required to be repeatable to a tenth of an inch.</p>
+
+<p>Most all of the programming was done inside the DEWESoft enviroment using some C++ code for the PLC.</p>
+
+<p>A Graphical Interface was provided to control the unit and show and record data.</p>
 
 
       </section>
