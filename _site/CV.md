@@ -1,5 +1,5 @@
 
-### -[Home](/)			-[Education](/Education)		-[Projects](/Projects){: .align-center}
+
 
 <p>
 
