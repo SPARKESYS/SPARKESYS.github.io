@@ -11,21 +11,21 @@ The PLC was removed.
 
 The pneumatic relay wiring was tested manually to determine the states of control.
 
-<a><img src="{{ site.baseurl }}/assets/images/WearFixture/wear_controller.jpg" alt="Wear Controller" style="width:450px;height:550px;"></a>
+<a><img src="/assets/images/WearFixture/wear_controller.jpg" alt="Wear Controller" style="width:450px;height:550px;"></a>
 
 
 A arduino nano was chosen to be the interface.
 
-<a><img src="{{ site.baseurl }}/assets/images/WearFixture/controller_nano.jpg" alt="Wear Controller" style="width:450px;height:350px;"></a>
+<a><img src="/assets/images/WearFixture/controller_nano.jpg" alt="Wear Controller" style="width:450px;height:350px;"></a>
 
 
 
 A custom PCB was designed to accomadate the inputs and outputs needed.
 
 
-<a><img src="{{ site.baseurl }}/assets/images/WearFixture/WEARFIXTURE_SCH.png" alt="Wear Controller" style="width:450px;height:350px;"></a>
+<a><img src="/assets/images/WearFixture/WEARFIXTURE_SCH.png" alt="Wear Controller" style="width:450px;height:350px;"></a>
 
-<a><img src="{{ site.baseurl }}/assets/images/WearFixture/WEARFIXTURE_BRD.png" alt="Wear Controller" style="width:350px;height:450px;"></a>
+<a><img src="/assets/images/WearFixture/WEARFIXTURE_BRD.png" alt="Wear Controller" style="width:350px;height:450px;"></a>
 
 The board was installed and tested.
 
