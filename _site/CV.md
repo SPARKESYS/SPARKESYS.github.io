@@ -9,7 +9,8 @@
 </P>
 
 
-![CHESS ROBOT PROJECT](/assets/images/engineering-MS.jpg){: .align-right}
+<a><img src="{{ site.baseurl }}/assets/images/engineering-MS.jpg" alt="Chess Robot" style="width:250px;height:150px;"></a>
+
 
 ## PRIMARY AREAS OF EXPERIENCE
 •	Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
