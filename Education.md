@@ -1,6 +1,11 @@
 
-### -[Home](https://sparkesys.github.io)
+### -[Home](/)			-[CV](/CV)			-[Projects](/Projects)
 
-### -[CV](https://sparkesys.github.io/CV)
 
-### -[Projects](https://SPARKESYS.github.io/Projects)
+
+
+## University Of West Florida
+
+## Bachelors of Science Computer Engineering
+
+## Bachelors of Science Electrical Engineering
