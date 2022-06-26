@@ -1,4 +1,5 @@
-baseurl: /SPARKESYS.github.io
+
+baseurl: SPARKESYS.github.io
 theme: jekyll-theme-minimal
 layout: home
 markdown: c
