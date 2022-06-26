@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 layout: home
-baseurl: /gh-pages
+baseurl: /
 markdown: c
 c:
   input: GFM
