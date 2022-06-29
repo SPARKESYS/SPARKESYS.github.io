@@ -1,12 +1,13 @@
+<!---
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   
-<!-- Begin Jekyll SEO tag v2.8.0 -->
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Building an Underwater Robotic Observation Vehicle | SPARKESYS.github.io</title>
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Building an Underwater Robotic Observation Vehicle" />
@@ -23,10 +24,10 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"Portfolio and Showcase for Projects","headline":"Building an Underwater Robotic Observation Vehicle","url":"http://localhost:4000/Projects/UROV.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=52c2e91d630bd3e2964a64940584745a12a766f2">
+    <link rel="stylesheet" href="/assets/css/style.css?v=71af6c991bd0462abfa87dfd14da2f8569a16e9a">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    <![endif]--
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -38,53 +39,218 @@
 
 <!-- end custom head snippets -->
 
-  </head>
-  <style>
-    body {
-      background-color: rgb(233, 233, 233);
-      background-repeat: no-repeat;
-      background-attachment: fixed;  
-      background-size: cover; 
-    }
-    </style>
-  <body>
+</head>
+<!--
+<style>
+  body {
+    background-color: rgb(233, 233, 233);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  </style>
+      --
+<body>
     <div class="wrapper">
-      <header>
-          
-        <!----
-        <h1><a href="http://localhost:4000/">SPARKESYS.github.io</a></h1>
-        -->
+        <header>
 
-        
+            <!----
+            <h1><a href="http://localhost:4000/">SPARKESYS.github.io</a></h1>
+            --
+            
 
-        <p>Portfolio and Showcase for Projects</p>
-        <p><a href="/">Home</a></p>
-        <p><a href="/CV">CV</a></p>
-        <p><a href="/Projects">Projects</a></p>
-      </header>
-      <section>
+            <p>Portfolio and Showcase for Projects</p>
+            <p><a href="/">Home</a></p>
+            <p><a href="/CV">CV</a></p>
+            <p><a href="/Projects">Projects</a></p>
+        </header>
+        <section>
 
-      
+            
 <h2 id="building-an-underwater-robotic-observation-vehicle">Building an Underwater Robotic Observation Vehicle</h2>
 
-<p>###</p>
+<p>This project was my final capstone project for my dual degree at the University of West Florida.</p>
 
-<object data="../assets/documents/UROV/ROV_BLOCK_DIAGRAM.pdf" width="1000" height="1000" type="application/pdf"></object>
+<p>We had 2 semesters to complete the project with proper documentation and have a functional prototype.</p>
 
-<object data="../assets/documents/UROV/CDRReport.pdf" width="1000" height="1000" type="application/pdf"></object>
+<p>Our team included 2 mechanical engineering students Brandon and Gabriella.</p>
+
+<p>Starting into our first semester the design ideas flew out fast and we settled on a design that was going to include 3 thruster motors.</p>
+
+<p>(image for design)</p>
+
+<p>This design looked sleek and refined however would require a completly 3d printed shell.</p>
+
+<p>This was going to be a problem, for a few reasons.</p>
+
+<ol>
+  <li>
+    <p>We did not have a printer large enough.</p>
+  </li>
+  <li>
+    <p>The time it would take to print would not afford us any mistakes.</p>
+  </li>
+  <li>
+    <p>The space inside was too small.</p>
+  </li>
+</ol>
+
+<p>Thus, our next design.</p>
+
+<p>(Image)</p>
+
+<object data="../assets/documents/UROV/ROV_BLOCK_DIAGRAM.pdf" width="300" height="500" type="application/pdf"></object>
+
+<object data="../assets/documents/UROV/CDRReport.pdf" width="300" height="500" type="application/pdf"></object>
 
 
-      </section>
-      <footer>
-        
-        <p>This project is maintained by <a href="https://github.com/SPARKESYS">SPARKESYS</a></p>
-        
-        
-      </footer>
+        </section>
+        <footer>
+            
+            <p>This project is maintained by <a href="https://github.com/SPARKESYS">SPARKESYS</a></p>
+            
+
+        </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
-  </body>
+</body>
 </html>
+            -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: rgb(233, 233, 233);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0px;
+            padding-bottom: 200px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .sidebar {
+            margin: 0;
+            padding: 5px;
+            width: 200px;
+            background-color: #c6cfcb;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            border: 1px solid rgba(102, 102, 102, 0.89);
+        }
+
+            .sidebar a {
+                display: block;
+                color: black;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+                .sidebar a.active {
+                    background-color: #04AA6D;
+                    color: white;
+                }
+
+                .sidebar a:hover:not(.active) {
+                    background-color: #555;
+                    color: white;
+                }
+
+        div.content {
+            
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: 1000px;
+            padding-left: 50px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                
+                
+            }
+
+                .sidebar a {
+                    float: left;
+                    
+                }
+
+            div.content {
+                margin-left: 0;
+                
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+                
+            }
+        }
+    </style>
+</head>
+<body>
 
 
+    <div class="sidebar">
 
+        <p>Portfolio and Showcase for Projects</p>
+        <p><a class="active" href="/">Home</a></p>
+        <p><a href="/CV">CV</a></p>
+        <p><a href="/Projects">Projects</a></p>
+    </div>
+
+    <div class="content" >
+        
+<h2 id="building-an-underwater-robotic-observation-vehicle">Building an Underwater Robotic Observation Vehicle</h2>
+
+<p>This project was my final capstone project for my dual degree at the University of West Florida.</p>
+
+<p>We had 2 semesters to complete the project with proper documentation and have a functional prototype.</p>
+
+<p>Our team included 2 mechanical engineering students Brandon and Gabriella.</p>
+
+<p>Starting into our first semester the design ideas flew out fast and we settled on a design that was going to include 3 thruster motors.</p>
+
+<p>(image for design)</p>
+
+<p>This design looked sleek and refined however would require a completly 3d printed shell.</p>
+
+<p>This was going to be a problem, for a few reasons.</p>
+
+<ol>
+  <li>
+    <p>We did not have a printer large enough.</p>
+  </li>
+  <li>
+    <p>The time it would take to print would not afford us any mistakes.</p>
+  </li>
+  <li>
+    <p>The space inside was too small.</p>
+  </li>
+</ol>
+
+<p>Thus, our next design.</p>
+
+<p>(Image)</p>
+
+<object data="../assets/documents/UROV/ROV_BLOCK_DIAGRAM.pdf" width="300" height="500" type="application/pdf"></object>
+
+<object data="../assets/documents/UROV/CDRReport.pdf" width="300" height="500" type="application/pdf"></object>
+
+
+        
+    </div>
+
+</body>
+</html>

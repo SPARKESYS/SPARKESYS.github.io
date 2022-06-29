@@ -9,13 +9,11 @@
 </P>
 
 
-<a><img src="{{ site.baseurl }}/assets/images/engineering-MS.jpg" alt="Chess Robot" style="width:250px;height:150px;"></a>
-
 
 ## PRIMARY AREAS OF EXPERIENCE
-•	Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site with 3D scanning and photo documentation.
+•	Computer and Electrical Engineer with 7 years of experience of developing hardware controls, automation sequences, documenting accident site 		with 3D scanning and photo documentation.
 
-•	Sound understanding of fundamental principles and trends in electrical engineering. Eager to learn and adapt to new environments, products, and projects.
+•	Eager to learn and adapt to new environments, products, and projects.
 
 ## PROFESSIONAL EXPERIENCE  
 
@@ -112,30 +110,13 @@
 
 ### PROGRAMMING PROFICIENCIES  
 
-¬C
+### C,		 C++,		 C# 
 
-¬C++
+### VHDL 		Assembly 
 
-¬C# 
-
-¬VHDL 
-
-¬Assembly 
-
-¬Python 
-
-
-
-¬Hardware Development 	
-
-¬Sensor Calibration 	
-
-¬Software Development 
-
-¬PCB Design 	
-
-¬Rapid Prototyping 
+### Python 
 
 
 
 
+-
