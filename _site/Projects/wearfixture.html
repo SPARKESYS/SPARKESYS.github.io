@@ -24,7 +24,7 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"Portfolio and Showcase for Projects","headline":"Wear Testing Fixture.","url":"http://localhost:4000/Projects/wearfixture.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=71af6c991bd0462abfa87dfd14da2f8569a16e9a">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c6a84fc3b836c1352e879c260b18c74fa6635033">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]--
@@ -61,9 +61,9 @@
             
 
             <p>Portfolio and Showcase for Projects</p>
-            <p><a href="/">Home</a></p>
-            <p><a href="/CV">CV</a></p>
-            <p><a href="/Projects">Projects</a></p>
+            <p><a href="//">Home</a></p>
+            <p><a href="//CV">CV</a></p>
+            <p><a href="//Projects">Projects</a></p>
         </header>
         <section>
 
@@ -79,11 +79,14 @@ It was originally programmed with a plc controller, the goal was to be able to c
 
 <p><a><img src="/assets/images/WearFixture/wear_controller.jpg" alt="Wear Controller" style="width:450px;height:550px;" /></a></p>
 
-<p>A arduino nano was chosen to be the interface.</p>
+<p>A arduino nano was chosen for the controller.</p>
 
 <p><a><img src="/assets/images/WearFixture/controller_nano.jpg" alt="Wear Controller" style="width:450px;height:350px;" /></a></p>
 
-<p>A custom PCB was designed to accomadate the inputs and outputs needed.</p>
+<p>A custom PCB was designed to accommodate the inputs and outputs needed.</p>
+
+<p>Since we are controlling the solenoids with a microcontroller an NPN Darlington pair chip “ULN2003A” was selected that features high-voltage outputs with common-cathode clamp diodes for switching inductive loads.
+This was paired with a decoder to allow a smaller microcontroller chip to be used with fewer outputs.</p>
 
 <p><a><img src="/assets/images/WearFixture/WEARFIXTURE_SCH.png" alt="Wear Controller" style="width:450px;height:350px;" /></a></p>
 
@@ -93,7 +96,8 @@ It was originally programmed with a plc controller, the goal was to be able to c
 
 <p>The arduino nano was used to interpret the serial data from the DEWESoft module that was used to control the pneumatic solenoids.</p>
 
-<p>With simple commands the entirety of the test fixture can now be controlled with a modified MODBUS structure.</p>
+<p>With simple commands based on a MODBUS structure the entirety of the test fixture can now be controlled from a serial command line interface.</p>
+
 
         </section>
         <footer>
@@ -243,9 +247,9 @@ It was originally programmed with a plc controller, the goal was to be able to c
     <div class="sidebar">
 
         <p>Portfolio and Showcase for Projects</p>
-        <p><a class="active" href="/">Home</a></p>
-        <p><a href="/CV">CV</a></p>
-        <p><a href="/Projects">Projects</a></p>
+        <p><a class="active" href="//">Home</a></p>
+        <p><a href="//CV">CV</a></p>
+        <p><a href="//Projects">Projects</a></p>
     </div>
 
     <div class="content" >
@@ -261,11 +265,14 @@ It was originally programmed with a plc controller, the goal was to be able to c
 
 <p><a><img src="/assets/images/WearFixture/wear_controller.jpg" alt="Wear Controller" style="width:450px;height:550px;" /></a></p>
 
-<p>A arduino nano was chosen to be the interface.</p>
+<p>A arduino nano was chosen for the controller.</p>
 
 <p><a><img src="/assets/images/WearFixture/controller_nano.jpg" alt="Wear Controller" style="width:450px;height:350px;" /></a></p>
 
-<p>A custom PCB was designed to accomadate the inputs and outputs needed.</p>
+<p>A custom PCB was designed to accommodate the inputs and outputs needed.</p>
+
+<p>Since we are controlling the solenoids with a microcontroller an NPN Darlington pair chip “ULN2003A” was selected that features high-voltage outputs with common-cathode clamp diodes for switching inductive loads.
+This was paired with a decoder to allow a smaller microcontroller chip to be used with fewer outputs.</p>
 
 <p><a><img src="/assets/images/WearFixture/WEARFIXTURE_SCH.png" alt="Wear Controller" style="width:450px;height:350px;" /></a></p>
 
@@ -275,7 +282,8 @@ It was originally programmed with a plc controller, the goal was to be able to c
 
 <p>The arduino nano was used to interpret the serial data from the DEWESoft module that was used to control the pneumatic solenoids.</p>
 
-<p>With simple commands the entirety of the test fixture can now be controlled with a modified MODBUS structure.</p>
+<p>With simple commands based on a MODBUS structure the entirety of the test fixture can now be controlled from a serial command line interface.</p>
+
 
         
     </div>
