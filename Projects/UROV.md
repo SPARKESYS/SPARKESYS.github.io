@@ -195,11 +195,5 @@ Some consideration to the motor size would need to be taken.
 
 The flange material would need to be made from a solid plastic to acheive any depth. 
 
-A depth sensors and lights would need to be added as well. 
+A depth sensor and lights would need to be added as well. 
 
-
-
-         
-          
-            
-           
