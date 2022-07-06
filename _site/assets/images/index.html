@@ -24,7 +24,7 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"Portfolio and Showcase for Projects","headline":"SPARKESYS.github.io","url":"http://localhost:4000/assets/images/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=d475328316a31e37c39b2fb14b7ac216278ab2f8">
+    <link rel="stylesheet" href="/assets/css/style.css?v=bc2f3696997cf3f20344099c613ebe619af04050">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]--
@@ -96,17 +96,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        
+
         body {
             background-color: rgb(233, 233, 233);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
             margin: 0px;
+            margin-bottom: 500px;
             padding-bottom: 200px;
             font-family: Arial, sans-serif;
         }
-        
+        #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            height: 40px;
+            background: rgb(233, 233, 233);
+            display: block;
+            margin-top: 500px; /* space between content and footer */
+            box-sizing: border-box;
+            width: 100%;
+        }
         .sidebar {
             margin: 0;
             padding: 5px;
@@ -140,16 +151,17 @@
             
         }
 
-        .grid{
+        .grid {
             display: grid;
-            grid-template-columns:  100px 2fr;
-            grid-template-rows: 8ch auto;
-            grid-gap: 50px;
+            grid-auto-columns: minmax(200px,auto);
+            grid-auto-rows: max-content;
+            gap: 40px;
+            padding-bottom: 200px;
         }
 
         .image {
-        width: 250px;
-        height: auto;
+        width: auto;
+        height: 250px;
         
         }
 
@@ -159,11 +171,11 @@
         bottom: 0;
         left: 0;
         right: 0;
-        height: 50;
+        height: 50px;
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background-color: 04AA6D;
+        background-color: #04AA6D;
         }
 
         .container:hover .overlay {
@@ -184,6 +196,7 @@
         div.content {
             
             margin-left: 200px;
+            margin-bottom: 100px;
             padding: 1px 16px;
             height: 1000px;
             padding-left: 50px;
@@ -206,7 +219,7 @@
 
             div.content {
                 margin-left: 0;
-                
+                margin-bottom: 100px;
             }
         }
 
@@ -230,11 +243,13 @@
         <p><a href="/Projects">Projects</a></p>
     </div>
 
-    <div class="content" >
+    <div class="content">
         
 
-        
+
     </div>
+
+    <div id="footer">  </div>
 
 </body>
 </html>
