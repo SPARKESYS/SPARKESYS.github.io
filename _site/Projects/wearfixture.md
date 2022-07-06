@@ -10,13 +10,13 @@ The PLC was removed.
 
 The pneumatic relay wiring was tested manually to determine the states of control.
 
-<a><img src="/assets/images/WearFixture/wear_controller.jpg" alt="Wear Controller" style="width:450px;height:550px;"></a>
+<a><img src="/assets/images/WearFixture/wear_controller_resize.jpg" alt="Wear Controller" style="width:350px;height:auto;"></a>
 
 
 A arduino nano was chosen for the controller.
 
 
-<a><img src="/assets/images/WearFixture/controller_nano.jpg" alt="Wear Controller" style="width:450px;height:350px;"></a>
+<a><img src="/assets/images/WearFixture/controller_nano_resize.jpg" alt="Wear Controller" style="width:450px;height:auto;"></a>
 
 
 A custom PCB was designed to accommodate the inputs and outputs needed.
@@ -25,9 +25,18 @@ Since we are controlling the solenoids with a microcontroller an NPN Darlington 
 This was paired with a decoder to allow a smaller microcontroller chip to be used with fewer outputs. 
 
 
-<a><img src="/assets/images/WearFixture/WEARFIXTURE_SCH.png" alt="Wear Controller" style="width:450px;height:350px;"></a>
+<a><img src="/assets/images/WearFixture/WEARFIXTURE_SCH_resize.png" alt="Wear Controller" style="width:450px;height:auto;"></a>
 
-<a><img src="/assets/images/WearFixture/WEARFIXTURE_BRD.png" alt="Wear Controller" style="width:350px;height:450px;"></a>
+<a><img src="/assets/images/WearFixture/WEARFIXTURE_BRD_resize.png" alt="Wear Controller" style="width:350px;height:auto;"></a>
+
+
+<a><img src="/assets/images/WearFixture/IMG_7286_resize.jpg" alt="Wear Controller" style="width:350px;height:auto;"></a>
+<a><img src="/assets/images/WearFixture/IMG_7287_resize.jpg" alt="Wear Controller" style="width:350px;height:auto;"></a>
+
+<a><img src="/assets/images/WearFixture/IMG_7282_resize.jpg" alt="Wear Controller" style="width:350px;height:auto;"></a>
+<a><img src="/assets/images/WearFixture/IMG_7283_resize.jpg" alt="Wear Controller" style="width:350px;height:auto;"></a>
+
+
 
 The board was installed and tested.
 

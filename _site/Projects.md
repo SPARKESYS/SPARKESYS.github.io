@@ -5,7 +5,7 @@
 <div class="grid">
 
 <div class="container">
-    <a href='/Projects/UROV'><img src='/assets/images/UROV/UROV_web.png' alt="UROV" class="image"></a>
+    <a href="/Projects/UROV"><img src="/assets/images/UROV/UROV_web.png" alt="UROV" class="image"></a>
     <div class="overlay">
         <div class="text">Underwater ROV</div>
     </div>
@@ -48,3 +48,5 @@
 </div>
 
 </div>
+
+
