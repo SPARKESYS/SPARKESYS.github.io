@@ -5,7 +5,7 @@
 <div class="grid">
 
 <div class="container">
-    <a href="/Projects/chessrobot"><img src="/assets/images/engineering-MS.jpg" alt="Chess Robot" class="image"></a>
+    <a href="/Projects/chessrobot"><img src="/assets/images/engineering-MS.jpg" alt="Chess Robot" class="image"> </a>
     <div class="overlay">
         <div class="text">Chess Robot</div>
     </div>
