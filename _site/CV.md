@@ -59,16 +59,20 @@
 
 <p>Minor in Computer Science</p>
 </div>
+
 <h3 id="awards-">AWARDS   </h3>
 
-<p>University of West Florida	December 2020</p>
+<h4 class="split-para">&emsp;University of West Florida <span>December 2020</span></h4>
+<div class="bullet-list">
 
 <p>“2020 University Of West Florida Dr. Muhammad Rashid Best Capstone Award”</p>
 
-<p>Underwater Robotic Observation Vehicle –https://sparkesys.github.io/Projects/UROV</p>
+<a href="https://sparkesys.github.io/Projects/UROV">Underwater Robotic Observation Vehicle</a>
+
+</div>
 
 <h3 id="certifications-and-training">CERTIFICATIONS AND TRAINING</h3>
-
+<div class="bullet-list">
 <p>LK Metrology 
 	CMM Basic</p>
 
@@ -77,9 +81,9 @@
 
 <p>FARO 
 	3D Scanning</p>
-
+</div>
 <h3 id="computer-proficiencies-">COMPUTER PROFICIENCIES   </h3>
-
+<div class="bullet-list">
 <p>Autodesk Fusion/Inventor</p>
 
 <p>Solidworks</p>
@@ -96,16 +100,16 @@
 
 <p>Stm32CubeMX
 MATLAB</p>
-
+</div>
 <h3 id="programming-languages">PROGRAMMING LANGUAGES</h3>
-
+<div class="bullet-list">
 <h4 id="c">C</h4>
 <h4 id="c-1">C++</h4>
 <h4 id="c-2">C#</h4>
 <h4 id="python">Python</h4>
 <h4 id="assembly">Assembly</h4>
 <h4 id="vhdl">VHDL</h4>
-
+</div>
 <div class="footer"></div>
         <footer>
             

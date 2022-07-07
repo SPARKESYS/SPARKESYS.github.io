@@ -1,7 +1,7 @@
 
 <div class="text_container">
 
-<h3> Building an Underwater Robotic Observation Vehicle </h3>
+<h2 align="center"> Building an Underwater Robotic Observation Vehicle </h2>
 
 <p>This project was my final capstone project for my dual degree at the University of West Florida. </p>
 

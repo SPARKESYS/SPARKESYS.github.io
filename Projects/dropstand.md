@@ -1,4 +1,4 @@
-<h2>A Drop Stand brake was designed. </h2>
+<h2 align="center"> A Drop Stand brake was designed. </h2>
 
 <p>There was a need to be able to stop the sled from impacting twice. </P>
 

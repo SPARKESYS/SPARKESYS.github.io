@@ -1,7 +1,7 @@
 
 <div class="text_container">
 
-<h2> Wear Testing Fixture. </h2>
+<h2 align="center"> Wear Testing Fixture. </h2>
 
 
 <p>This test fixture was used to scrape across a sectioned portion of a carbeurator float valve to show indications of wear in the brass sleeve.</p>

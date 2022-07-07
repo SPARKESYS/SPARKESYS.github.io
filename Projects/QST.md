@@ -1,7 +1,7 @@
 
 <div class="text_container">
 
-<h2> I Reprogramed a Quasistatic Test Stand</h2>
+<h2 align="center"> I Reprogramed a Quasistatic Test Stand</h2>
 
 <a><img src="{{ site.baseurl }}/assets/images/QST/QST_Overall_web.png" style="width:350px;height:auto;" alt="QST"></a>
 
