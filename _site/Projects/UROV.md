@@ -25,7 +25,7 @@
 
 <p>Thus, our next design.</p>
 
-<a> <img src="/assets/images/UROV/design2.png" alt="UROV" style="width:350px;height:auto;" ></a> 
+<a> <img src="/assets/images/UROV/Design2.png" alt="UROV" style="width:350px;height:auto;" ></a> 
 
 
 <p>The new design allowed a 3D Printed shell to be made in two halves and the thrusters could be attached externally. A PVC pipe would be used for the interior tube to contain the electronics. </p>
