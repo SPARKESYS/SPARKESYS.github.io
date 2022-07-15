@@ -62,6 +62,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
 
         body {
@@ -79,7 +80,7 @@
             padding: 10px 10px 0px 10px;
             bottom: 0;
             height: 40px;
-            background: #545454;
+            
             display: block;
             margin-top: 500px; /* space between content and footer */
             box-sizing: border-box;
@@ -88,20 +89,24 @@
         .sidebar {
             margin: 0;
             padding: 15px;
-            width: 150px;
+            width: 250px;
             background-color: #545454;
             position: fixed;
-            height: 50%;
+            height: 100%;
             overflow: auto;
             border: 1px solid rgba(102, 102, 102, 0.89);
+            text-align: center;
+            font-variant: small-caps;
+            
         }
 
-        .sidebar a {
-            display: block;
-            color: black;
-            padding: 16px;
-            text-decoration: none;
-        }
+            .sidebar a {
+                display: block;
+                color: white;
+                padding: 5px;
+                text-decoration: none;
+                text-align: center;
+            }
 
             .sidebar a.active {
                 background-color: #555;
@@ -119,13 +124,15 @@
         }
 
         .grid {
-            width: 300px;
+            width: auto;
             display: grid;
             grid-auto-columns: 3fr;
             grid-template-areas: "a a";
             grid-auto-rows: minmax(300px,auto);
             gap: 40px;
             padding-bottom: 200px;
+           
+            margin-right:auto;
         }
 
         .image {
@@ -164,7 +171,7 @@
         }
         div.content {
             
-            margin-left: 200px;
+            margin-left: 280px;
             margin-bottom: 100px;
             padding: 1px 16px;
             height: 1000px;
@@ -224,6 +231,12 @@
             padding-bottom: 100px;
             text-align: left;
         }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
     </style>
 </head>
 <body>
@@ -231,7 +244,7 @@
 
     <div class="sidebar">
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <h1>{{ site.description | default: site.github.project_tagline }}</h1>
         <p><a class="active" href="{{ site.baseurl }}/">Home</a></p>
         <p><a href="{{ site.baseurl }}/CV">CV</a></p>
         <p><a href="{{ site.baseurl }}/Projects">Projects</a></p>
