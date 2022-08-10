@@ -73,23 +73,25 @@
 
 <p>The front camera dome was ordered and fitted. The scale of the flange was off by 2% so the dome did not fit. </p>
 <p>I tried my hand at designing some custom propellors for the thrusters as well</p>
-<p>The pitch was to too steep for the output torque of the motors under water. In air they would amazing.</p>
+<p>The pitch was to too steep for the output torque of the motors under water. In air they worked amazing.</p>
 <a><img src="/assets/images/UROV/IMG_7371_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 
 <p>A new flange was printed. </p>
+<h3>Electronics Design</h3>
 
-<p></p>
-<p></p>
 <a><img src="/assets/images/UROV/ROV Control Board_resize.PNG" alt="UROV" style="width:800px;height:auto;"></a>
 <p></p>
-<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors.I used ON Semiconductor MMBTA14LT1G NPN Darlington Pair Transistors and some generic A4988 stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
+<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors.</p>
+<p>I used ON Semiconductor MMBTA14LT1G NPN Darlington Pair Transistors and some generic A4988 stepper motor drivers that required a PWM input, an enable pin and a direction pin. </p>
+<p>I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
 <p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. </p>
 <p>Once it was installed the circuit functioned perfectly. The capacitor would charge quickly and the camera would move. Soon after the joystick was released the driver would shut off.</p>
 <p>Functionality for LED and IR lights as well as a depth sensor were added in the schematic as well.</p> 
 <p>A TE connectivity MS5837-30BA was selected for depth sensing. It is capable of 0.2 cm resolution in water and has a pressure range of 0 to 30bar.</p>
 <p>The depth sensor also uses and I^2c interface which is nice</p>
-<p>Once the electronics were tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
-
+<p>A MAX485 chip was used to provide the 2 wire RS232 interface. A generic board was purchased and installed</p>
+<p>Once the electronics were tested and everything functioned properly, a schematic and board were designed. I ordered the PCBs from purple PCB.</p>
+<p>An arduino nano was used to control the ROV</p>
 <a><img src="/assets/images/UROV/IMG_7384_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7423_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7424_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
@@ -99,6 +101,8 @@
 
 
 <p>The internal frame assembly started.</p>
+<p>All of the internal plastic pieces were milled out of ABS sheets.</p>
+<p>Brass heat set inserts were used to attach the electronics frames to the front flange.</p>
 
 <a><img src="/assets/images/UROV/IMG_7438_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7441_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
@@ -109,9 +113,9 @@
 <p>Once the interals were functioning properly design of the control station started. </p>
 
 <a><img src="/assets/images/UROV/controlDesign.png" alt="UROV" style="width:250px;height:auto;"></a>
-<p>I wanted to use a raspberry pi and a large screen. I ordered a generic 10 inch HDMI touchscreen.
-<p>The Raspberry pi was mounted on the back of the display so I needed to get USB for serial data to the arduino microcontroller to the bottom panel.</p>
-<p>I used a generic usb panel mount recepticle</p>
+<p>I wanted to use a raspberry pi and a large screen. I ordered a generic 10 inch HDMI touchscreen.</p>
+<p>The Raspberry pi was mounted on the back of the display so I needed to get USB for serial data to the arduino microcontroller into the bottom panel.</p>
+<p>I used a generic usb panel mount receptacle and ran the wires through the top and bottom panels.</p>
 <p>Potentiometers were added to control lights both IR and LED</p>
 <p>Battery indicators for the control panel and ROV were added</p>
 
@@ -125,12 +129,12 @@
 <p>The case was then assembled and testing began.</p>
 <p>I used 4 Bourns 60MM 10K linear potentiometers for the controls of the thrusters. They were small, precise and easy to use.</p>
 
-<a><img src="/assets/images/UROV/IMG_7485_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
-<a><img src="/assets/images/UROV/IMG_7494_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
+<a><img src="/assets/images/UROV/IMG_7485_resize.JPG" alt="UROV" style="width:450px;height:auto;"></a>
+<a><img src="/assets/images/UROV/IMG_7494_resize.JPG" alt="UROV" style="width:450px;height:auto;"></a>
 
 <p>The case was wired and tested. </p>
 
-<a><img src="/assets/images/UROV/IMG_7456_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
+<a><img src="/assets/images/UROV/IMG_7456_resize.JPG" alt="UROV" style="width:650px;height:auto;"></a>
 
 <p>A program to control and display the camera feed and UROV status remotely was started. A C# program was written with a windows forms GUI. </p>
 <p>Python was used to display camera feed</p>
