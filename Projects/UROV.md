@@ -88,10 +88,8 @@
 <p>Functionality for LED and IR lights as well as a depth sensor were added in the schematic as well.</p> 
 <p>A TE connectivity MS5837-30BA was selected for depth sensing. It is capable of 0.2 cm resolution in water and has a pressure range of 0 to 30bar.</p>
 <p>The depth sensor also uses and I^2c interface which is nice</p>
+<p>Once the electronics were tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
 
-
-
-<p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
 <a><img src="/assets/images/UROV/IMG_7384_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7423_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7424_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
