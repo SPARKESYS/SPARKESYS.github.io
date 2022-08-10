@@ -109,7 +109,7 @@
 
 <p>This would help to ensure the ROV was airtight.</p>
 
-<p>The New design was modeled in CAD and work began on the electronics.</p>
+<p>The new design was modeled in CAD and work began on the electronics.</p>
 
 <a><img src="/assets/images/UROV/IMG_7376_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 
@@ -149,20 +149,22 @@
 
 
 <p>The front camera dome was ordered and fitted. The scale of the flange was off by 2% so the dome did not fit. </p>
-
+<p>I tried my hand at designing some custom propellors for the thrusters as well</p>
+<p>The pitch was to too steep for the output torque of the motors under water. In air they would amazing.</p>
 <a><img src="/assets/images/UROV/IMG_7371_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 
-<p>A new flange was printed. 
+<p>A new flange was printed. </p>
 
-<p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
-
+<p></p>
+<p></p>
 <a><img src="/assets/images/UROV/ROV Control Board_resize.PNG" alt="UROV" style="width:800px;height:auto;" /></a>
 <p></p>
-<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors. I used standard stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
+<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors.I used ON Semiconductor MMBTA14LT1G NPN Darlington Pair Transistors and some generic A4988 stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
 <p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. </p>
 <p>Once it was installed the circuit functioned perfectly. The capacitor would charge quickly and the camera would move. Soon after the joystick was released the driver would shut off.</p>
 
 
+<p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
 <a><img src="/assets/images/UROV/IMG_7384_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/IMG_7423_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/IMG_7424_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
@@ -182,6 +184,12 @@
 <p>Once the interals were functioning properly design of the control station started. </p>
 
 <a><img src="/assets/images/UROV/controlDesign.png" alt="UROV" style="width:250px;height:auto;" /></a>
+<p>I wanted to use a raspberry pi and a large screen. I ordered a generic 10 inch HDMI touchscreen.
+<p>The Raspberry pi was mounted on the back of the display so I needed to get USB for serial data to the arduino microcontroller to the bottom panel.</p>
+<p>I used a generic usb panel mount recepticle</p>
+<p>Potentiometers were added to control lights both IR and LED</p>
+<p>Battery indicators for the control panel and ROV were added</p>
+
 
 <p>The panels were exported and milled using a CNC router.</p>
 
@@ -190,7 +198,7 @@
 <a><img src="/assets/images/UROV/IMG_7452_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 
 <p>The case was then assembled and testing began.</p>
-<p>I chose to used 4 linear potentiometers for the controls of the thrusters.</p>
+<p>I chose to used 4 Bourns 60MM 10K linear potentiometers for the controls of the thrusters. They were small, precise and easy to use.</p>
 
 <a><img src="/assets/images/UROV/IMG_7485_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/IMG_7494_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
@@ -205,7 +213,7 @@
 <a><img src="/assets/images/UROV/IMG_7518_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/UROV_CP_resize.jpg" alt="UROV" style="width:250px;height:auto;" /></a>
 
-<p>The Thrusters would display a value of 0 to 1024 beacuse of the 8 bit adc on the Arduino. </p>
+<p>The program would display a value of (-512 -0- 512) for the thrusters beacuse of the 8 bit adc on the Arduino. </p>
 
 <p>A N was dispalyed for the range near center for neutral.</p>
 <p>A F was displayed for forward movement and a R was displayed for reverse movement.</p>
@@ -528,7 +536,7 @@
 
 <p>This would help to ensure the ROV was airtight.</p>
 
-<p>The New design was modeled in CAD and work began on the electronics.</p>
+<p>The new design was modeled in CAD and work began on the electronics.</p>
 
 <a><img src="/assets/images/UROV/IMG_7376_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 
@@ -568,20 +576,22 @@
 
 
 <p>The front camera dome was ordered and fitted. The scale of the flange was off by 2% so the dome did not fit. </p>
-
+<p>I tried my hand at designing some custom propellors for the thrusters as well</p>
+<p>The pitch was to too steep for the output torque of the motors under water. In air they would amazing.</p>
 <a><img src="/assets/images/UROV/IMG_7371_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 
-<p>A new flange was printed. 
+<p>A new flange was printed. </p>
 
-<p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
-
+<p></p>
+<p></p>
 <a><img src="/assets/images/UROV/ROV Control Board_resize.PNG" alt="UROV" style="width:800px;height:auto;" /></a>
 <p></p>
-<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors. I used standard stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
+<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors.I used ON Semiconductor MMBTA14LT1G NPN Darlington Pair Transistors and some generic A4988 stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
 <p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. </p>
 <p>Once it was installed the circuit functioned perfectly. The capacitor would charge quickly and the camera would move. Soon after the joystick was released the driver would shut off.</p>
 
 
+<p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
 <a><img src="/assets/images/UROV/IMG_7384_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/IMG_7423_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/IMG_7424_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
@@ -601,6 +611,12 @@
 <p>Once the interals were functioning properly design of the control station started. </p>
 
 <a><img src="/assets/images/UROV/controlDesign.png" alt="UROV" style="width:250px;height:auto;" /></a>
+<p>I wanted to use a raspberry pi and a large screen. I ordered a generic 10 inch HDMI touchscreen.
+<p>The Raspberry pi was mounted on the back of the display so I needed to get USB for serial data to the arduino microcontroller to the bottom panel.</p>
+<p>I used a generic usb panel mount recepticle</p>
+<p>Potentiometers were added to control lights both IR and LED</p>
+<p>Battery indicators for the control panel and ROV were added</p>
+
 
 <p>The panels were exported and milled using a CNC router.</p>
 
@@ -609,7 +625,7 @@
 <a><img src="/assets/images/UROV/IMG_7452_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 
 <p>The case was then assembled and testing began.</p>
-<p>I chose to used 4 linear potentiometers for the controls of the thrusters.</p>
+<p>I chose to used 4 Bourns 60MM 10K linear potentiometers for the controls of the thrusters. They were small, precise and easy to use.</p>
 
 <a><img src="/assets/images/UROV/IMG_7485_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/IMG_7494_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
@@ -624,7 +640,7 @@
 <a><img src="/assets/images/UROV/IMG_7518_resize.JPG" alt="UROV" style="width:250px;height:auto;" /></a>
 <a><img src="/assets/images/UROV/UROV_CP_resize.jpg" alt="UROV" style="width:250px;height:auto;" /></a>
 
-<p>The Thrusters would display a value of 0 to 1024 beacuse of the 8 bit adc on the Arduino. </p>
+<p>The program would display a value of (-512 -0- 512) for the thrusters beacuse of the 8 bit adc on the Arduino. </p>
 
 <p>A N was dispalyed for the range near center for neutral.</p>
 <p>A F was displayed for forward movement and a R was displayed for reverse movement.</p>
