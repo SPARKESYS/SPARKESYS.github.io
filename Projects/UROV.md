@@ -79,6 +79,11 @@
 
 <p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
 
+<a><img src="/assets/images/UROV/ROV Control Board_resize.PNG" alt="UROV" style="width:800px;height:auto;"></a>
+<p></p>
+<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors. I used standard stepper motor drivers that required a PWM input, a enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
+<p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. 
+
 <a><img src="/assets/images/UROV/IMG_7384_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7423_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7424_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
