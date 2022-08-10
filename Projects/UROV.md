@@ -81,14 +81,18 @@
 
 <a><img src="/assets/images/UROV/ROV Control Board_resize.PNG" alt="UROV" style="width:800px;height:auto;"></a>
 <p></p>
-<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors. I used standard stepper motor drivers that required a PWM input, a enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
-<p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. 
+<p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors. I used standard stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
+<p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. </p>
+<p>Once it was installed the circuit functioned perfectly. The capacitor would charge quickly and the camera would move. Soon after the joystick was released the driver would shut off.</p>
+
 
 <a><img src="/assets/images/UROV/IMG_7384_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7423_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 <a><img src="/assets/images/UROV/IMG_7424_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 
-<p>A PLC module was ordered to convert ethernet data to rs485 two wire rx and tx to stream the camera to the control panel.</p>
+<p>A RAK Wireless WisLink LX200V20 EVB was used to stream the camera feed from the onboard raspberry pi to the control center over a 2 wire rs485</p>
+
+
 
 <p>The internal frame assembly started.</p>
 
