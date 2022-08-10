@@ -85,6 +85,10 @@
 <p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors.I used ON Semiconductor MMBTA14LT1G NPN Darlington Pair Transistors and some generic A4988 stepper motor drivers that required a PWM input, an enable pin and a direction pin. I wanted to utilize the enable and sleep pins to save on power while the camera was idle.</p>
 <p>The intention was to use the pwm step signal to charge an enable pin reducing the step and enable to a single output. The capacitor would dissapate the charge in about 10 seconds. </p>
 <p>Once it was installed the circuit functioned perfectly. The capacitor would charge quickly and the camera would move. Soon after the joystick was released the driver would shut off.</p>
+<p>Functionality for LED and IR lights as well as a depth sensor were added in the schematic as well.</p> 
+<p>A TE connectivity MS5837-30BA was selected for depth sensing. It is capable of 0.2 cm resolution in water and has a pressure range of 0 to 30bar.</p>
+<p>The depth sensor also uses and I^2c interface which is nice</p>
+
 
 
 <p>Once the electronics had been tested and everything functioned properly. A schematic and board was designed, ordered and assembled.</p>
@@ -130,7 +134,8 @@
 
 <a><img src="/assets/images/UROV/IMG_7456_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 
-<p>The program control and display the thrusters remotely was started, a C# program was written with a windows forms GUI.</p>
+<p>A program to control and display the camera feed and UROV status remotely was started. A C# program was written with a windows forms GUI. </p>
+<p>Python was used to display camera feed</p>
 <p>mono was installed on the raspian IOS to support .net framework. </p>
 
 <a><img src="/assets/images/UROV/IMG_7518_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
@@ -141,7 +146,10 @@
 <p>A N was dispalyed for the range near center for neutral.</p>
 <p>A F was displayed for forward movement and a R was displayed for reverse movement.</p>
 
-<p>With most of the electronics assembled a leak test was performed. Apparantly 3D printed plastic is not water tight.</p>
+
+<h3>Time for Assembly</h3>
+<p>With most of the electronics finished and the flanges printed and assembled, a leak test was performed. </p>
+<p>Apparantly 3D printed plastic is not water tight.</p>
 
 <a><img src="/assets/images/UROV/IMG_7496_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 
@@ -159,16 +167,17 @@
 
 
 <p> It still Leaked </p>
+<p>I pulled a vacuum on the assembled shell and painted the outside of the flange with a rubberized coating.</p>
 
-<p>The outside of the flange was coated with a rubberized coating.</p>
 <p>This fixed the leaks in the flange body.</p>
 
-<p>The front where the clear bubble dome was connected needed a seal so I make a makeshift epoxy vacuum degass chamber and diluted some silicone using naptha and cornstarch.</p>
 
-<a><img src="/assets/images/UROV/IMG_7508_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
-
+<p>The front where the clear bubble dome was connected needed a seal</p>
 
 <p>I 3D printed a mold to create the silicone gasket.</p>
+<p> I made a makeshift vacuum degass chamber and diluted some silicone using naptha and added cornstarch.</p>
+
+<a><img src="/assets/images/UROV/IMG_7508_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 
 <a><img src="/assets/images/UROV/IMG_7513_resize.JPG" alt="UROV" style="width:250px;height:auto;"></a>
 
@@ -208,11 +217,11 @@
 
 <p>We had some last minute changes to adjust buoyancy and adding a power switch that was accessible without having to dissassemble the outer shell and pull the internal electronics out. </p>
 
-<p>The ROV function as it was designed. </p>
+<p>The ROV functioned properly </p>
 
 <p>Some consideration to the motor size would need to be taken.</p>
 
-<p>The flange material would need to be made from a solid plastic to acheive any depth. </p>
+<p>The flange material would need to be made from a solid plastic to acheive any real depth. </p>
 
 <p>A depth sensor and lights would need to be added as well. </p>
 
