@@ -15,7 +15,7 @@
 
 
 
-<p>Most all of the programming was done inside the DEWESoft enviroment using some C++ code for the PLC.</p>
+<p>Most all of the programming was done inside the DEWESoft enviroment using some C++ code for the PID.</p>
 
 
 <p>A Graphical Interface was provided to control the unit and show and record data.</p>

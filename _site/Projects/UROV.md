@@ -79,7 +79,7 @@
 <p>A new flange was printed. </p>
 <h3>Electronics Design</h3>
 
-<a><img src="/assets/images/UROV/ROV Control Board_resize.PNG" alt="UROV" style="width:800px;height:auto;"></a>
+<a><img src="/assets/images/UROV/ROV Control Board_resize.png" alt="UROV" style="width:800px;height:auto;"></a>
 <p></p>
 <p>I designed a Darlington pair transistor charge pump that was used to reduce the number of channels needed to control the camera gimbal motors.</p>
 <p>I used ON Semiconductor MMBTA14LT1G NPN Darlington Pair Transistors and some generic A4988 stepper motor drivers that required a PWM input, an enable pin and a direction pin. </p>

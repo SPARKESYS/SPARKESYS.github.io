@@ -2,6 +2,6 @@
 
 <p>There was a need to be able to stop the sled from impacting twice. </P>
 
-<p>So a flag trigger was designed, and statistical analysis on the signal was done to create an electrical signal engaging a braking system for the sled </p>
+<p>So a flag trigger was designed, and a statistical analysis was calculated on the signal to enable a trigger engaging a braking system for the sled </p>
 
 

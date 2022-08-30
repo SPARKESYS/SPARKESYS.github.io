@@ -27,4 +27,6 @@
 <p> The robot could be manually controlled using 3 joysticks</p>
 <a> <img src="/assets/images/Chess Robot/Controller.JPG" alt="Robotic arm" style="width:350px;height:auto;" ></a> 
 
+<p>The mechanical design was already completed by some other students. It was pretty jerky.</p>
+
 </div>
